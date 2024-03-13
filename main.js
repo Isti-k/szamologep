@@ -5,7 +5,7 @@ szamgomb.innerHTML += gombok();
 const szamokgomb = document.querySelectorAll(".gombok")
 
 for (let index = 0; index < szamokgomb.length; index++) {
-    szamgomb[index].addEventListener("click", katt);
+    szamokgomb[index].addEventListener("click", katt);
 }
 
 const kijelzes = document.getElementsByClassName("kifejezes")[0];
